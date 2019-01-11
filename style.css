@@ -1,0 +1,169 @@
+@import url(reset.css);
+html{
+    font-size: 62.5%;
+    background: black;
+}
+.area{
+    display: block;
+    position: relative;
+    height: 36rem;
+    width: 60rem;
+    margin: 10rem auto;
+    border: 1rem gray solid;
+}
+.counter, .counter2, .counter3{
+    display: block;
+    position: relative;
+    background: #a4a993;
+    height: 36rem;
+    width: 20rem;
+    box-sizing: border-box;
+    float: left;
+}
+.top, .bottom, .center, .topLeft, .bottomLeft, .topRight, .bottomRight, .top10, .bottom10, .center10, .topLeft10, .bottomLeft10, .topRight10, .bottomRight10, .top100, .bottom100, .center100, .topLeft100, .bottomLeft100, .topRight100, .bottomRight100{
+    position: absolute;
+	width: 15rem;
+	height: 0;
+	border-left: 1rem solid transparent;
+	border-right: 1rem solid transparent;
+    border-bottom: 1rem solid black;
+    left: 2.5rem;
+    opacity: 0.04;
+}
+.top::after, .bottom::after, .center::after, .topLeft::after, .bottomLeft::after, .topRight::after, .bottomRight::after, .top10::after, .bottom10::after, .center10::after, .topLeft10::after, .bottomLeft10::after, .topRight10::after, .bottomRight10::after, .top100::after, .bottom100::after, .center100::after, .topLeft100::after, .bottomLeft100::after, .topRight100::after, .bottomRight100::after{
+    content: '';
+    position: absolute;
+	width: 15rem;
+	height: 0;
+	border-left: 1rem solid transparent;
+	border-right: 1rem solid transparent;
+	border-bottom: 1rem solid black;
+    transform: rotate(180deg);
+    top: 1rem;
+    left: -1rem;
+}
+.top, .top10, .top100{
+    top: 1rem;
+}
+.bottom, .bottom10, .bottom100{
+    top: 32.2rem;
+}
+.center, .center10, .center100{
+    top: 16.6rem;
+}
+.topLeft, .topLeft10, .topLeft100{
+    transform: rotate(90deg);
+    top: 9.3rem;
+    left: -4.5rem;
+}
+.bottomLeft, .bottomLeft10, .bottomLeft100{
+    transform: rotate(90deg);
+    top: 24.9rem;
+    left: -4.5rem;
+}
+.topRight, .topRight10, .topRight100{
+    transform: rotate(90deg);
+    top: 9.3rem;
+    left: 10.5rem;
+}
+.bottomRight , .bottomRight10, .bottomRight100{
+    transform: rotate(90deg);
+    top: 24.9rem;
+    left: 10.5rem;
+}
+.plus{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: -2rem;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 30%;
+    background: #149092;
+}
+.restart{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    left: 13rem;
+    top: -23rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 30%;
+    background: #c62a04;
+}
+.show{
+    opacity: 1;
+}
+/* MOBILE */
+@media only screen and (max-width: 750px){
+
+.area{
+    height: 18rem;
+    width: 30rem;
+}
+.counter, .counter2, .counter3{
+    height: 18rem;
+    width: 10rem;
+}
+.top, .bottom, .center, .topLeft, .bottomLeft, .topRight, .bottomRight, .top10, .bottom10, .center10, .topLeft10, .bottomLeft10, .topRight10, .bottomRight10, .top100, .bottom100, .center100, .topLeft100, .bottomLeft100, .topRight100, .bottomRight100{
+    width: 7.5rem;
+    border-left: 0.5rem solid transparent;
+	border-right: 0.5rem solid transparent;
+    border-bottom: 0.5rem solid black;
+    left: 1.25rem;
+}
+.top::after, .bottom::after, .center::after, .topLeft::after, .bottomLeft::after, .topRight::after, .bottomRight::after, .top10::after, .bottom10::after, .center10::after, .topLeft10::after, .bottomLeft10::after, .topRight10::after, .bottomRight10::after, .top100::after, .bottom100::after, .center100::after, .topLeft100::after, .bottomLeft100::after, .topRight100::after, .bottomRight100::after{
+    content: '';
+    position: absolute;
+	width: 7.5rem;
+	border-left: 0.5rem solid transparent;
+	border-right: 0.5rem solid transparent;
+	border-bottom: 0.5rem solid black;
+    top: 0.5rem;
+    left: -0.5rem;
+}
+.top, .top10, .top100{
+    top: 0.5rem;
+}
+.bottom, .bottom10, .bottom100{
+    top: 16.1rem;
+}
+.center, .center10, .center100{
+    top: 8.3rem;
+}
+.topLeft, .topLeft10, .topLeft100{
+    transform: rotate(90deg);
+    top: 4.65rem;
+    left: -2.25rem;
+}
+.bottomLeft, .bottomLeft10, .bottomLeft100{
+    transform: rotate(90deg);
+    top: 12.45rem;
+    left: -2.25rem;
+}
+.topRight, .topRight10, .topRight100{
+    transform: rotate(90deg);
+    top: 4.65rem;
+    left: 5.25rem;
+}
+.bottomRight , .bottomRight10, .bottomRight100{
+    transform: rotate(90deg);
+    top: 12.45rem;
+    left: 5.25rem;
+}
+.plus{
+    top: -4.5rem;
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: 30%;
+}
+.restart{
+    left: 6.5rem;
+    top: -16rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 30%;
+}
+
+}
