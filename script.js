@@ -268,8 +268,6 @@ function showNumberHundred() {
 number = 0;
 reset();
 showNumberOne();
-showNumberTen();
-showNumberHundred();
 
 plus.addEventListener("click", function(e) {   
     CleanCounter();
@@ -278,16 +276,18 @@ plus.addEventListener("click", function(e) {
         reset();
     }
     showNumberOne();
+    if( number > 9) {
     showNumberTen();
+    }
+    if( number > 99) {
     showNumberHundred();
+    }
 },false);
 
 restart.addEventListener("click", function(e) {   
     CleanCounter();
     reset();
     showNumberOne();
-    showNumberTen();
-    showNumberHundred();
 },false);
     
 // Iphone //
@@ -298,16 +298,18 @@ plus.addEventListener("touch", function(e) {
         reset();
     }
     showNumberOne();
+    if( number > 9) {
     showNumberTen();
+    }
+    if( number > 99) {
     showNumberHundred();
+    }
 },false);        
 
 restart.addEventListener("touch", function(e) {   
     CleanCounter();
     reset();
     showNumberOne();
-    showNumberTen();
-    showNumberHundred();
 },false);
           
 })();

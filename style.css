@@ -101,6 +101,7 @@ html{
 .area{
     height: 18rem;
     width: 30rem;
+    margin: 5rem auto;
 }
 .counter, .counter2, .counter3{
     height: 18rem;
@@ -153,14 +154,14 @@ html{
     left: 5.25rem;
 }
 .plus{
-    top: -4.5rem;
+    top: 1rem;
     height: 7.5rem;
     width: 7.5rem;
     border-radius: 30%;
 }
 .restart{
     left: 6.5rem;
-    top: -16rem;
+    top: -11rem;
     height: 2.5rem;
     width: 2.5rem;
     border-radius: 30%;
