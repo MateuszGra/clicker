@@ -97,74 +97,72 @@ html{
 }
 /* MOBILE */
 @media only screen and (max-width: 750px){
-
-.area{
-    height: 18rem;
-    width: 30rem;
-    margin: 5rem auto;
-}
-.counter, .counter2, .counter3{
-    height: 18rem;
-    width: 10rem;
-}
-.top, .bottom, .center, .topLeft, .bottomLeft, .topRight, .bottomRight, .top10, .bottom10, .center10, .topLeft10, .bottomLeft10, .topRight10, .bottomRight10, .top100, .bottom100, .center100, .topLeft100, .bottomLeft100, .topRight100, .bottomRight100{
-    width: 7.5rem;
-    border-left: 0.5rem solid transparent;
-	border-right: 0.5rem solid transparent;
-    border-bottom: 0.5rem solid black;
-    left: 1.25rem;
-}
-.top::after, .bottom::after, .center::after, .topLeft::after, .bottomLeft::after, .topRight::after, .bottomRight::after, .top10::after, .bottom10::after, .center10::after, .topLeft10::after, .bottomLeft10::after, .topRight10::after, .bottomRight10::after, .top100::after, .bottom100::after, .center100::after, .topLeft100::after, .bottomLeft100::after, .topRight100::after, .bottomRight100::after{
-    content: '';
-    position: absolute;
-	width: 7.5rem;
-	border-left: 0.5rem solid transparent;
-	border-right: 0.5rem solid transparent;
-	border-bottom: 0.5rem solid black;
-    top: 0.5rem;
-    left: -0.5rem;
-}
-.top, .top10, .top100{
-    top: 0.5rem;
-}
-.bottom, .bottom10, .bottom100{
-    top: 16.1rem;
-}
-.center, .center10, .center100{
-    top: 8.3rem;
-}
-.topLeft, .topLeft10, .topLeft100{
-    transform: rotate(90deg);
-    top: 4.65rem;
-    left: -2.25rem;
-}
-.bottomLeft, .bottomLeft10, .bottomLeft100{
-    transform: rotate(90deg);
-    top: 12.45rem;
-    left: -2.25rem;
-}
-.topRight, .topRight10, .topRight100{
-    transform: rotate(90deg);
-    top: 4.65rem;
-    left: 5.25rem;
-}
-.bottomRight , .bottomRight10, .bottomRight100{
-    transform: rotate(90deg);
-    top: 12.45rem;
-    left: 5.25rem;
-}
-.plus{
-    top: 1rem;
-    height: 7.5rem;
-    width: 7.5rem;
-    border-radius: 30%;
-}
-.restart{
-    left: 6.5rem;
-    top: -11rem;
-    height: 2.5rem;
-    width: 2.5rem;
-    border-radius: 30%;
-}
-
+    .area{
+        height: 18rem;
+        width: 30rem;
+        margin: 5rem auto;
+    }
+    .counter, .counter2, .counter3{
+        height: 18rem;
+        width: 10rem;
+    }
+    .top, .bottom, .center, .topLeft, .bottomLeft, .topRight, .bottomRight, .top10, .bottom10, .center10, .topLeft10, .bottomLeft10, .topRight10, .bottomRight10, .top100, .bottom100, .center100, .topLeft100, .bottomLeft100, .topRight100, .bottomRight100{
+        width: 7.5rem;
+        border-left: 0.5rem solid transparent;
+        border-right: 0.5rem solid transparent;
+        border-bottom: 0.5rem solid black;
+        left: 1.25rem;
+    }
+    .top::after, .bottom::after, .center::after, .topLeft::after, .bottomLeft::after, .topRight::after, .bottomRight::after, .top10::after, .bottom10::after, .center10::after, .topLeft10::after, .bottomLeft10::after, .topRight10::after, .bottomRight10::after, .top100::after, .bottom100::after, .center100::after, .topLeft100::after, .bottomLeft100::after, .topRight100::after, .bottomRight100::after{
+        content: '';
+        position: absolute;
+        width: 7.5rem;
+        border-left: 0.5rem solid transparent;
+        border-right: 0.5rem solid transparent;
+        border-bottom: 0.5rem solid black;
+        top: 0.5rem;
+        left: -0.5rem;
+    }
+    .top, .top10, .top100{
+        top: 0.5rem;
+    }
+    .bottom, .bottom10, .bottom100{
+        top: 16.1rem;
+    }
+    .center, .center10, .center100{
+        top: 8.3rem;
+    }
+    .topLeft, .topLeft10, .topLeft100{
+        transform: rotate(90deg);
+        top: 4.65rem;
+        left: -2.25rem;
+    }
+    .bottomLeft, .bottomLeft10, .bottomLeft100{
+        transform: rotate(90deg);
+        top: 12.45rem;
+        left: -2.25rem;
+    }
+    .topRight, .topRight10, .topRight100{
+        transform: rotate(90deg);
+        top: 4.65rem;
+        left: 5.25rem;
+    }
+    .bottomRight , .bottomRight10, .bottomRight100{
+        transform: rotate(90deg);
+        top: 12.45rem;
+        left: 5.25rem;
+    }
+    .plus{
+        top: 1rem;
+        height: 7.5rem;
+        width: 7.5rem;
+        border-radius: 30%;
+    }
+    .restart{
+        left: 6.5rem;
+        top: -11rem;
+        height: 2.5rem;
+        width: 2.5rem;
+        border-radius: 30%;
+    }
 }

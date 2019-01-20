@@ -2,6 +2,7 @@
 
 const plus = document.querySelector(".plus"),
     restart = document.querySelector(".restart"),
+    
     top = document.querySelector(".top"),
     bottom = document.querySelector(".bottom"),
     topLeft = document.querySelector(".topLeft"),
