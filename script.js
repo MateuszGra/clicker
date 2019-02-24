@@ -67,6 +67,16 @@ function cleanCounter(what) {
 
 }
 
+/*
+position on HTML:
+
+        0
+    2       4
+        6
+    3       5
+        1
+*/
+
 function showNumber(amount, what) {
     if(amount == 0) {
         what[0].classList.add('show');
